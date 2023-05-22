@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Welcome to my Blog</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Julius Sans One;
+  padding: 50px;
+  background: url('bad.jpg');
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: url('nav.jpg');
+  color: #ffffff;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 30%;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+   background: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: url('nav.jpg');
+  margin-top: 20px;
+color: white;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+
+<body>
+
+<div class="header">
+  <h1>BLOG</h1>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    
+          <div class="card">
+      <h2> Namastey Everyone!</h2>
+      <h5>Hello and Namastey everyone from the top of the world. Hope you'll have a great day ahead.</h5>
+          <img src="np.jpg" width="900" height="300"></img>
+          </div><br>
+     
+</div>
+ <div class="rightcolumn">
+    
+     <div class="card">
+     <h2>About Me</h2>
+      <center> <img src="sud.jpg" width="200" height="200"></img>
+     <p>Just a normal guy who likes to have fun.</p>
+</center>
+    </div>
+
+     
+    <div class="card">
+      <h3>Follow Me</h3>
+<center>
+      <a href="https://www.instagram.com/s.u.d.e.s/"><img src="ig.jpg" width="50" height="50"></img></a>
+<br>
+    <a href="mailto:xudes00@gmail.com"><img src="go.png" width="40" height="40"></img></a>
+<br>
+<a href="https://www.facebook.com/sudesh.acharya.7"><img src="fb.png" width="40" height="40"></img></a>
+
+</center>
+    </div>
+
+</div>
+   
+
+
+<div class="row">
+  <div class="leftcolumn">
+   <div class="card">
+      <h2>Assignments</h2>
+      <h5>The assisgments are attached <a href="hi.html" >here</a></h5>
+      </div>
+ <div class="card">
+      <h2>Previous Blog</h2>
+      <h5><a href="dosro.html">Click here</a></h5>
+      </div>
+</div>
+
+</div>
+
+<div class="footer">
+ <p> Copyright &copy; 2020 All rights reserved </p>
+</div>
+
+</body>
+</html>
